@@ -20,7 +20,7 @@ while (True):
         if task != "Task Not Found":
             mark_task_complete(task)
     elif option == '5':
-        time = int(input("Enter task duration: "))
+        time = int(("Enter task duration: "))
         print_list(get_tasks_taking_longer_than(tasks, time))
     elif option == '6':
         description = input("Enter task description to search for: ")
